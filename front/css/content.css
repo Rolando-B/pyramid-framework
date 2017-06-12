@@ -1,0 +1,25 @@
+/*CUSTOM CSS GOES HERE*/
+.content{
+	width: 90vh;
+	height: auto;
+	margin: auto;
+	font-family: Sans-serif;
+	text-align: center;
+}
+.content h1{
+	font-size: 1.3em;
+	margin : 5%;
+}
+.content h2{
+	margin: 5%;
+	font-size: 1.2em;
+	color: #3081D8;
+}
+.content img{
+	margin: 5% 0%;
+	max-width: 80%;
+}
+.content p{
+	font-size: 1.1em;
+	margin: 2%
+}

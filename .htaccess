@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /pyramid-framework2/
+RewriteRule ^admin(.*) admin$1 [L]
+RewriteRule ^stats(.*) stats$1 [L]
+RewriteRule ^files(.*) files$1 [L]
+RewriteRule ^compiled(.*) compiled$1 [L]
+RewriteRule ^users(.*) users$1 [F]
+RewriteRule ^(.*)/$ G:/Programmes/Bitnami/wappstack-5.6.30-3/apache2/htdocs/pyramid-framework2/$1
+RewriteRule ^node_1.en$ compiled_files/node_1.en.php [L]
+RewriteRule ^node_1.fr$ compiled_files/node_1.fr.php [L]
+RewriteRule ^en$ compiled_files/node_2.fr.php [L]
+RewriteRule ^fr$ compiled_files/node_3.fr.php [L]
